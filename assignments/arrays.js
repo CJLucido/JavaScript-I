@@ -137,3 +137,13 @@ for (i = 0; i < inventory.length; i++) {
 }
 
 console.log(JSON.stringify(BMWAndAudi));
+
+
+//personal stretch! using the ternary operator to reduce code size
+
+let secondBMWAndAudi = [];
+
+for (i = 0; i < inventory.length; i++) {
+inventory[i].car_make === "BMW" || inventory[i].car_make ===  "Audi" ?  secondBMWAndAudi.push(inventory[i].car_model) : false;}
+
+console.log(JSON.stringify(secondBMWAndAudi));
