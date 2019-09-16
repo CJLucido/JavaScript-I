@@ -59,13 +59,23 @@ const employee5 = {
 
 // Mitzi's name
 
+console.log(employee1.name);
+
 // Kennan's ID
+
+console.log(employee2.id);
 
 // Keven's email
 
+console.log(employee3.email);
+
 // Gannie's name
 
+console.log(employee4.name);
+
 // Antonietta's Gender
+
+console.log(employee5.gender);
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
