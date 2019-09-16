@@ -103,7 +103,8 @@ for (i = 0; i < inventory.length; i++){
 }
 console.log(carYears);
 
-let uniqueYears = carYears.filter(function(year, index){ //personal stretch: if the current years index is more than the one we have for it get rid of it, if not then keep it
+let uniqueYears =[];
+uniqueYears = carYears.filter(function(year, index){ //personal stretch: if the current years index is more than the one we have for it get rid of it, if not then keep it
 	return carYears.indexOf(year) >= index;
 });
 
