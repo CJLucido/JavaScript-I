@@ -56,6 +56,10 @@ const employee5 = {
   email: "adaine5@samsung.com",
   name: "Antonietta",
   gender: "F",
+
+  multiplyNums: function(a,b){
+    return a * b;
+  }
 }
 
 // ==== Challenge 2: Reading Object Data ==== 
@@ -89,6 +93,8 @@ console.log(employee2.speak());
 
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
 //console.log(antonietta.multiplyNums(3,4));
+
+console.log(employee5.multiplyNums(3,4));
 
 // === Great work! === Head over to the the arrays.js. You may come back and attempt the Stretch Challenge once you have completed the challenges in arrays.js and function-conversion.js.
 
